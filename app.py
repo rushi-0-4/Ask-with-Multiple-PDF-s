@@ -8,7 +8,7 @@ from langchain.vectorstores import FAISS
 from langchain_community.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from htmlTemplates import css, bot_template, user_template
+from HTMLTemplates import css, bot_template, user_template
 
 # Function to extract text from PDF files
 def get_pdf_text(pdf_docs):
